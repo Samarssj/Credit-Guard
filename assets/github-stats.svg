@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="292" viewBox="0 0 720 292" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Pulse statistics for Samar Singh</title>
+  <desc id="desc">Live GitHub analytics for Samarssj, generated from GitHub API data.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="52%" stop-color="#111936"/>
+      <stop offset="100%" stop-color="#17102f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="52%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="waveLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="52%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="waveFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#94a3b8" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" rx="22" fill="url(#bg)"/>
+  <rect width="100%" height="100%" rx="22" fill="url(#grid)"/>
+  <rect x="0" y="0" width="100%" height="5" rx="3" fill="url(#accent)"/>
+  <text x="28" y="44" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="30px" font-weight="700" text-anchor="start">GitHub Pulse</text>
+  <text x="28" y="72" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="400" text-anchor="start">Samarssj  /  live profile snapshot</text>
+  <rect x="548" y="28" width="144" height="28" rx="14" fill="#12363d" stroke="#1e6b73"/>
+  <circle cx="566" cy="42" r="4" fill="#22d3ee" filter="url(#glow)"/>
+  <text x="578" y="48" fill="#22d3ee" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="start" letter-spacing="1px">SYNCED</text>
+  <rect x="28" y="94" width="210" height="64" rx="16" fill="#111936" fill-opacity="0.84" stroke="#26345c"/>
+  <rect x="28" y="94" width="5" height="64" rx="3" fill="#a78bfa"/>
+  <circle cx="54" cy="119" r="5" fill="#a78bfa" filter="url(#glow)"/>
+  <text x="70" y="125" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="start" letter-spacing="1px">REPOSITORIES</text>
+  <text x="52" y="152" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="27px" font-weight="700" text-anchor="start">20</text>
+  <rect x="256" y="94" width="210" height="64" rx="16" fill="#111936" fill-opacity="0.84" stroke="#26345c"/>
+  <rect x="256" y="94" width="5" height="64" rx="3" fill="#fb923c"/>
+  <circle cx="282" cy="119" r="5" fill="#fb923c" filter="url(#glow)"/>
+  <text x="298" y="125" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="start" letter-spacing="1px">TOTAL STARS</text>
+  <text x="280" y="152" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="27px" font-weight="700" text-anchor="start">1</text>
+  <rect x="484" y="94" width="210" height="64" rx="16" fill="#111936" fill-opacity="0.84" stroke="#26345c"/>
+  <rect x="484" y="94" width="5" height="64" rx="3" fill="#22d3ee"/>
+  <circle cx="510" cy="119" r="5" fill="#22d3ee" filter="url(#glow)"/>
+  <text x="526" y="125" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="start" letter-spacing="1px">TOTAL FORKS</text>
+  <text x="508" y="152" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="27px" font-weight="700" text-anchor="start">1</text>
+  <rect x="28" y="172" width="210" height="64" rx="16" fill="#111936" fill-opacity="0.84" stroke="#26345c"/>
+  <rect x="28" y="172" width="5" height="64" rx="3" fill="#f472b6"/>
+  <circle cx="54" cy="197" r="5" fill="#f472b6" filter="url(#glow)"/>
+  <text x="70" y="203" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="start" letter-spacing="1px">COMMITS · 1 YEAR</text>
+  <text x="52" y="230" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="27px" font-weight="700" text-anchor="start">272</text>
+  <rect x="256" y="172" width="210" height="64" rx="16" fill="#111936" fill-opacity="0.84" stroke="#26345c"/>
+  <rect x="256" y="172" width="5" height="64" rx="3" fill="#22d3ee"/>
+  <circle cx="282" cy="197" r="5" fill="#22d3ee" filter="url(#glow)"/>
+  <text x="298" y="203" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="start" letter-spacing="1px">PULL REQUESTS</text>
+  <text x="280" y="230" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="27px" font-weight="700" text-anchor="start">0</text>
+  <rect x="484" y="172" width="210" height="64" rx="16" fill="#111936" fill-opacity="0.84" stroke="#26345c"/>
+  <rect x="484" y="172" width="5" height="64" rx="3" fill="#a78bfa"/>
+  <circle cx="510" cy="197" r="5" fill="#a78bfa" filter="url(#glow)"/>
+  <text x="526" y="203" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="700" text-anchor="start" letter-spacing="1px">CODE REVIEWS</text>
+  <text x="508" y="230" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="27px" font-weight="700" text-anchor="start">0</text>
+  <text x="28" y="272" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" text-anchor="start" letter-spacing="1px">LAST SYNC  19 Aug 2026  ·  15:22 UTC</text>
+  <text x="692" y="272" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" text-anchor="end" letter-spacing="1px">AUTO-REFRESH  /  EVERY 6 HOURS</text>
+</svg>
